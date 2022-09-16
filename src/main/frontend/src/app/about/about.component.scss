@@ -1,0 +1,10 @@
+@import "../../assets/scss/mixins";
+@import "../../assets/scss/variables";
+
+.mdl-grid {
+  @include content-template;
+
+  .about-background {
+    @include content-background-template;
+  }
+}
